@@ -69,3 +69,4 @@ Text to speech technology is that technology which reads out loud the text to th
 ## Result
 A visually impaired person can easily read any readable document using Raspberry Pi based Reader.
 It will only capture image when we will press the button do processing and can hear what is written on those image.
+Our focus is on enhancing the capabilities of blind people by providing them a solution so that the information can be fed to them in the form of a speech signal.

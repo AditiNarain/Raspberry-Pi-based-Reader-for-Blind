@@ -5,6 +5,10 @@ Everytime they don't get braille to read everthing they want and it is costly al
 Our device is reading the text loud in form of audio as it captures image and all the text written there will be read out loud by the speakers. We have used OCR technology 
 for converting the jpg image to text image and text image to audio by using TTS technology.
 
+This project presents the automatic document reader for visually impaired people. It uses the Optical character recognition technology for the identification of the printed characters using image sensing devices that is camera and computer programming. It converts images of typed and printed text into searchable text. Searchable text are converted into the audio output (Speech) with the use of OCR and Text-to-speech.
+
+The conversion of printed document into text files is done using raspberry pi which uses Python programming. The text files are processed by OpenCV library & python programming language and audio output is achieved.
+
 ## Hardware Required:
 1. Raspberry Pi 3B+
 2. Raspberri Pi Camera
@@ -55,9 +59,11 @@ Then that signal is send to the the speaker/earphones via audio jack.
 ### OCR technology
 OCR technology is the optical character recognition which converts the text document to the editable of searchable data with the use of pattern recognition and feature 
 recognition.This technology is used so that we can edit, store search the data. In our case we are storing the data and converting into audio format.
+
  image captured --> image processing --> pre-processing --> segmentation (of lines and words) --> Recognition 
 ### TTS technology 
 Text to speech technology is that technology which reads out loud the text to the audio. The ocr allows tts to convert the word on an image to readable format.
+
 .txt file ---> processing (text to audio conversion) --> audio file
 
 ## Result
